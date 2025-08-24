@@ -1,0 +1,3 @@
+[General]
+Certificate=/home/kyrasarii/.local/share/krdpserver/krdp.crt
+CertificateKey=/home/kyrasarii/.local/share/krdpserver/krdp.key

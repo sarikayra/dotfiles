@@ -1,0 +1,8 @@
+[Libinput][1739][52861][SYN1B8B:00 06CB:CE7D Mouse]
+PointerAccelerationProfile=1
+
+[Libinput][1739][52861][SYN1B8B:00 06CB:CE7D Touchpad]
+ClickMethod=1
+NaturalScroll=false
+PointerAccelerationProfile=1
+ScrollMethod=1
