@@ -140,5 +140,3 @@ Thanks to the awesome open-source community and the developers of:
 ---
 
 ⭐ If you found this useful, consider giving it a star!
-
-*Last updated: [Current Date]*
