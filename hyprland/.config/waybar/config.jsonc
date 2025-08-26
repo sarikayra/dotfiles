@@ -12,18 +12,26 @@
   "modules-center": ["hyprland/workspaces"],
   "modules-right": ["network", "backlight", "pulseaudio", "battery"],
 
+
   "hyprland/workspaces": {
     "disable-scroll": true,
-    "all-outputs": true,
     "sort-by-number": true,
     "on-click": "activate",
-    "format": " {icon} ",
+    "format": "{icon}",
     "format-icons": {
-      "active": "",
-      "default": "",
-      "urgent": "",
+       "1": "", // Browser
+       "2": "", // Terminal
+       "3": "", // Text Editor
+       "4": "", // Music
+       "5": "", // Video
+       "6": "", // Chat
+       "7": "", // Files
+       "8": "", // Gaming
+       "9": "", // Settings
+       "10": "", // Charts
     },
   },
+
 
   "clock": {
     "format": " {:%H:%M}",

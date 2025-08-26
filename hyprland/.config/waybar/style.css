@@ -29,17 +29,23 @@ tooltip {
 #pulseaudio
 #battery
 #battery.warning
-#battery.critical
-#workspaces button {
+#battery.critical button {
   color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
   transition: all 0.5s ease-in-out;
 }
 
+#workspaces button {
+  margin: 0 4px; /* Adds space between each workspace */
+  padding: 4px 8px;
+}
+
+#workspaces button:hover {
+}
+
 #workspaces button.active {
-  color: @foreground;
-  transition: all 0.5s ease-in-out;
+  color: @color4;
 }
 
 #clock.2 {
