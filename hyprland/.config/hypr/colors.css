@@ -4,28 +4,28 @@ css = { src = "colors.css", dst = "~/.config/" }
  */
 
 :root {
-    --wallpaper: url("/home/kayra/Pictures/Wallpapers/52.jpg");
+    --wallpaper: url("/home/kayra/Pictures/Wallpapers/20.jpg");
 
     /* Special */
-    --background: #1A1D1F;
-    --foreground: #FCEEF1;
-    --cursor: #88A5A2;
+    --background: #00000B;
+    --foreground: #F4E9E7;
+    --cursor: #AA969B;
 
     /* Colors */
-    --color0:  #404446;
-    --color1:  #73405B;
-    --color2:  #155C54;
-    --color3:  #3E588B;
-    --color4:  #728E9B;
-    --color5:  #C37499;
-    --color6:  #F5CED6;
-    --color7:  #F2DEE2;
-    --color8:  #A99B9E;
-    --color9:  #73405B;
-    --color10: #155C54;
-    --color11: #3E588B;
-    --color12: #728E9B;
-    --color13: #C37499;
-    --color14: #F5CED6;
-    --color15: #F2DEE2;
+    --color0:  #00000B;
+    --color1:  #313359;
+    --color2:  #61434F;
+    --color3:  #93564A;
+    --color4:  #B98778;
+    --color5:  #E58C3D;
+    --color6:  #DFC1B9;
+    --color7:  #E7D8D4;
+    --color8:  #A19794;
+    --color9:  #313359;
+    --color10: #61434F;
+    --color11: #93564A;
+    --color12: #B98778;
+    --color13: #E58C3D;
+    --color14: #DFC1B9;
+    --color15: #E7D8D4;
 }

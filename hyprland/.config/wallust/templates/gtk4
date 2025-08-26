@@ -1,0 +1,125 @@
+/* GTK4 Wallust Template */
+
+/* Window styling */
+window {
+    background-color: {{background}};
+    color: {{foreground}};
+}
+
+/* Button styling */
+button {
+    background-color: {{ background}};
+    color: {{foreground}};
+    border: 2px solid {{color0}};
+    border-radius: 6px;
+    padding: 8px 16px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    border: 2px solid {{color4}};
+    color: {{foreground}};
+}
+
+button:active {
+    background-color: {{ color2 }};
+}
+
+button.destructive-action {
+    background-color: {{background}};
+    color: {{foreground}};
+}
+
+/* Entry/Input styling */
+entry {
+    background-color: {{background}};
+    color: {{foreground}};
+    border: 2px solid {{color0}};
+    border-radius: 6px;
+    padding: 8px;
+    transition: border-color 0.2s ease;
+}
+
+entry:focus {
+    border-color: {{background}};
+    outline: 2px solid alpha({{background}}, 0.3);
+    outline-offset: -2px;
+}
+
+/* Headerbar styling */
+headerbar {
+    background-color: {{background}};
+    color: {{foreground}};
+    padding: 6px;
+}
+
+/* Popover styling */
+:opover {
+    background-color: {{ color0 }};
+    color: {{foreground}};
+    border: 2px solid {{color0}};
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Menu styling */
+popover.menu {
+    padding: 4px;
+}
+
+modelbutton {
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+modelbutton:hover {
+    background-color: {{background}};
+    color: {{foreground}};
+}
+
+/* Scrollbar styling */
+scrollbar {
+    background-color: transparent;
+}
+
+scrollbar slider {
+    background-color: {{ background }};
+    border-radius: 10px;
+    margin: 2px;
+    min-width: 10px;
+    min-height: 10px;
+}
+
+scrollbar slider:hover {
+    background-color: {{background}};
+}
+
+/* Listview/List styling */
+listview {
+    background-color: {{background}};
+    color: {{foreground}};
+}
+
+listview row {
+    padding: 8px 12px;
+}
+
+listview row:selected {
+    background-color: {{background}};
+    color: {{foreground}};
+}
+
+/* Switch styling */
+switch {
+    background-color: {{ background }};
+    border-radius: 12px;
+}
+
+switch:checked {
+    background-color: {{background}};
+}
+
+switch slider {
+    background-color: {{foreground}};
+    border-radius: 50%;
+}

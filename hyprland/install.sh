@@ -17,7 +17,7 @@ makepkg -si --noconfirm
 echo "Updating system and installing main packages with pacman..."
 sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm \
-  adw-gtk-theme base \
+  adw-gtk-theme \
   base-devel \
   blueman \
   bluez \
@@ -41,7 +41,6 @@ sudo pacman -S --noconfirm \
   intel-ucode \
   iwd \
   kitty \
-  kvantum \
   lazygit \
   libpulse \
   libreoffice-fresh \
@@ -49,7 +48,6 @@ sudo pacman -S --noconfirm \
   linux \
   linux-firmware \
   linux-headers \
-  ly \
   mako \
   mpv \
   neovim \
@@ -77,7 +75,6 @@ sudo pacman -S --noconfirm \
   swww \
   ttf-fira-code \
   unzip \
-  uwsm \
   vi \
   vim \
   vulkan-headers \

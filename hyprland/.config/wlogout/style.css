@@ -33,7 +33,7 @@ button:focus, button:active, button:hover {
 	background-color: alpha(@color12,0.0);  
 	outline-style: none;
   border-width: 2px;
-  border-color: @color12;
+  border-color: @color4;
 }
 
 #lock {

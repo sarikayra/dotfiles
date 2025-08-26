@@ -28,7 +28,7 @@ palette = "dark"
 # Ensures a "readable contrast" (OPTIONAL, disabled by default)
 # Should only be enabled when you notice an unreadable contrast frequently happening
 # with your images. The reference color for the contrast is the background color.
-#check_contrast = true
+# check_contrast = true
 
 # Color saturation, between [1% and 100%] (OPTIONAL, disabled by default)
 # usually something higher than 50 increases the saturation and below
@@ -42,9 +42,11 @@ palette = "dark"
 css = { src = "color", dst = "~/.config/hypr/colors.css" }
 kitty = { src = 'kitty', dst ='~/.config/kitty/colors.conf'}
 waybar = { src = "waybar", dst = "~/.config/waybar/colors.css" }
-hypr = { src = "hyprland", dst = "~/.config/hypr/colors.conf" }
+hypr = { src = "hyprland", dst = "~/.config/hypr/borders.conf" }
 mako = { src = "mako", dst = "~/.config/mako/config" }
+kvantum = { src = 'kvconfig', dst = "~/.config/Kvantum/wallust/wallust.kvconfig"}
 wlogout = { src = "wlogout", dst = "~/.config/wlogout/colors.css" }
 fuzzel = { template = "fuzzel", dst = "~/.config/fuzzel/colors.ini" }
 nvim = { src = "nvim", dst = "~/.config/nvim/lua/colors/wallust.lua"}
-starship = { template = "starship", dst = "~/.config/starship.toml"}
+gtk4 = { template = "gtk4", dst = "~/.config/gtk-4.0/gtk.css"}
+gtk3 = { template = "gtk3", dst = "~/.config/gtk-3.0/gtk.css"}
