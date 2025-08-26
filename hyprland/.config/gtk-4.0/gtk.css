@@ -1,1 +1,125 @@
-/usr/share/themes/adw-gtk3-dark/gtk-4.0/gtk.css
+/* GTK4 Wallust Template */
+
+/* Window styling */
+window {
+    background-color: #100000;
+    color: #FFE7D8;
+}
+
+/* Button styling */
+button {
+    background-color: #100000;
+    color: #FFE7D8;
+    border: 2px solid #100000;
+    border-radius: 6px;
+    padding: 8px 16px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    border: 2px solid #FF7162;
+    color: #FFE7D8;
+}
+
+button:active {
+    background-color: #E54A4E;
+}
+
+button.destructive-action {
+    background-color: #100000;
+    color: #FFE7D8;
+}
+
+/* Entry/Input styling */
+entry {
+    background-color: #100000;
+    color: #FFE7D8;
+    border: 2px solid #100000;
+    border-radius: 6px;
+    padding: 8px;
+    transition: border-color 0.2s ease;
+}
+
+entry:focus {
+    border-color: #100000;
+    outline: 2px solid alpha(#100000, 0.3);
+    outline-offset: -2px;
+}
+
+/* Headerbar styling */
+headerbar {
+    background-color: #100000;
+    color: #FFE7D8;
+    padding: 6px;
+}
+
+/* Popover styling */
+:opover {
+    background-color: #100000;
+    color: #FFE7D8;
+    border: 2px solid #100000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Menu styling */
+popover.menu {
+    padding: 4px;
+}
+
+modelbutton {
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+modelbutton:hover {
+    background-color: #100000;
+    color: #FFE7D8;
+}
+
+/* Scrollbar styling */
+scrollbar {
+    background-color: transparent;
+}
+
+scrollbar slider {
+    background-color: #100000;
+    border-radius: 10px;
+    margin: 2px;
+    min-width: 10px;
+    min-height: 10px;
+}
+
+scrollbar slider:hover {
+    background-color: #100000;
+}
+
+/* Listview/List styling */
+listview {
+    background-color: #100000;
+    color: #FFE7D8;
+}
+
+listview row {
+    padding: 8px 12px;
+}
+
+listview row:selected {
+    background-color: #100000;
+    color: #FFE7D8;
+}
+
+/* Switch styling */
+switch {
+    background-color: #100000;
+    border-radius: 12px;
+}
+
+switch:checked {
+    background-color: #100000;
+}
+
+switch slider {
+    background-color: #FFE7D8;
+    border-radius: 50%;
+}

@@ -8,27 +8,27 @@ local M = {}
 -- Wallust color palette
 local colors = {
     -- Special colors
-    background = "#00000B",
-    foreground = "#F4E9E7",
-    cursor = "#AA969B",
+    background = "#100000",
+    foreground = "#FFE7D8",
+    cursor = "#F29993",
     
     -- Standard 16 colors
-    color0  = "#00000B",   -- black
-    color1  = "#313359",   -- red
-    color2  = "#61434F",   -- green
-    color3  = "#93564A",   -- yellow
-    color4  = "#B98778",   -- blue
-    color5  = "#E58C3D",   -- magenta
-    color6  = "#DFC1B9",   -- cyan
-    color7  = "#E7D8D4",   -- white
-    color8  = "#A19794",   -- bright black
-    color9  = "#313359",   -- bright red
-    color10 = "#61434F",  -- bright green
-    color11 = "#93564A",  -- bright yellow
-    color12 = "#B98778",  -- bright blue
-    color13 = "#E58C3D",  -- bright magenta
-    color14 = "#DFC1B9",  -- bright cyan
-    color15 = "#E7D8D4",  -- bright white
+    color0  = "#100000",   -- black
+    color1  = "#AE6455",   -- red
+    color2  = "#E54A4E",   -- green
+    color3  = "#D08269",   -- yellow
+    color4  = "#FF7162",   -- blue
+    color5  = "#FF966E",   -- magenta
+    color6  = "#FFBB90",   -- cyan
+    color7  = "#F7D5BF",   -- white
+    color8  = "#AD9586",   -- bright black
+    color9  = "#AE6455",   -- bright red
+    color10 = "#E54A4E",  -- bright green
+    color11 = "#D08269",  -- bright yellow
+    color12 = "#FF7162",  -- bright blue
+    color13 = "#FF966E",  -- bright magenta
+    color14 = "#FFBB90",  -- bright cyan
+    color15 = "#F7D5BF",  -- bright white
 }
 
 local function set_highlights()

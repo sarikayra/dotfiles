@@ -1,0 +1,87 @@
+/* GTK3 Wallust Template */
+
+/* Window styling */
+window {
+    background-color: #00000B;
+    color: #F4E9E7;
+}
+
+/* Button styling */
+button {
+    background-color: #00000B;
+    color: #F4E9E7;
+    border: 2px solid #00000B;
+    border-radius: 10px;
+    padding: 6px 12px;
+}
+
+button:hover {
+    border: 2px solid #B98778;
+    color: #F4E9E7;
+}
+
+button:active {
+    background-color: #B98778;
+}
+
+/* Entry/Input styling */
+entry {
+    background-color: #00000B;
+    color: @theme_text_color;
+    border: 2px solid #B98778;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+entry:focus {
+    border-color: #B98778;
+    box-shadow: 0 0 3px #B98778;
+}
+
+/* Headerbar styling */
+headerbar {
+    background-color: #00000B;
+    color: #F4E9E7;
+    border-bottom: 1px solid #B98778;
+}
+
+/* Menu styling */
+menu {
+    background-color: #00000B;
+    color: #F4E9E7;
+    border: 2px solid #B98778;
+}
+
+menuitem {
+    padding: 6px 12px;
+}
+
+menuitem:hover {
+    background-color: #B98778;
+    color: #F4E9E7;
+}
+
+/* Scrollbar styling */
+scrollbar {
+    background-color: #00000B;
+}
+
+scrollbar slider {
+    background-color: #A19794;
+    border-radius: 10px;
+}
+
+scrollbar slider:hover {
+    background-color: #B98778;
+}
+
+/* Treeview/List styling */
+treeview {
+    background-color: #00000B;
+    color: @theme_text_color;
+}
+
+treeview:selected {
+    background-color: #00000B;
+    color: #F4E9E7;
+}

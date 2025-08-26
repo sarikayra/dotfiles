@@ -2,54 +2,54 @@
 
 /* Window styling */
 window {
-    background-color: #00000B;
-    color: #F4E9E7;
+    background-color: #100000;
+    color: #FFE7D8;
 }
 
 /* Button styling */
 button {
-    background-color: #00000B;
-    color: #F4E9E7;
-    border: 2px solid #00000B;
+    background-color: #100000;
+    color: #FFE7D8;
+    border: 2px solid #100000;
     border-radius: 10px;
     padding: 6px 12px;
 }
 
 button:hover {
-    border: 2px solid #B98778;
-    color: #F4E9E7;
+    border: 2px solid #FF7162;
+    color: #FFE7D8;
 }
 
 button:active {
-    background-color: #B98778;
+    background-color: #FF7162;
 }
 
 /* Entry/Input styling */
 entry {
-    background-color: #00000B;
+    background-color: #100000;
     color: @theme_text_color;
-    border: 2px solid #B98778;
+    border: 2px solid #FF7162;
     border-radius: 10px;
     padding: 6px;
 }
 
 entry:focus {
-    border-color: #B98778;
-    box-shadow: 0 0 3px #B98778;
+    border-color: #FF7162;
+    box-shadow: 0 0 3px #FF7162;
 }
 
 /* Headerbar styling */
 headerbar {
-    background-color: #00000B;
-    color: #F4E9E7;
-    border-bottom: 1px solid #B98778;
+    background-color: #100000;
+    color: #FFE7D8;
+    border-bottom: 1px solid #FF7162;
 }
 
 /* Menu styling */
 menu {
-    background-color: #00000B;
-    color: #F4E9E7;
-    border: 2px solid #B98778;
+    background-color: #100000;
+    color: #FFE7D8;
+    border: 2px solid #FF7162;
 }
 
 menuitem {
@@ -57,31 +57,31 @@ menuitem {
 }
 
 menuitem:hover {
-    background-color: #B98778;
-    color: #F4E9E7;
+    background-color: #FF7162;
+    color: #FFE7D8;
 }
 
 /* Scrollbar styling */
 scrollbar {
-    background-color: #00000B;
+    background-color: #100000;
 }
 
 scrollbar slider {
-    background-color: #A19794;
+    background-color: #AD9586;
     border-radius: 10px;
 }
 
 scrollbar slider:hover {
-    background-color: #B98778;
+    background-color: #FF7162;
 }
 
 /* Treeview/List styling */
 treeview {
-    background-color: #00000B;
+    background-color: #100000;
     color: @theme_text_color;
 }
 
 treeview:selected {
-    background-color: #00000B;
-    color: #F4E9E7;
+    background-color: #100000;
+    color: #FFE7D8;
 }

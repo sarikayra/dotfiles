@@ -39,12 +39,11 @@ palette = "dark"
 #alpha = 100
 
 [templates]
-css = { src = "color", dst = "~/.config/hypr/colors.css" }
+color = { src = "color", dst = "~/.config/hypr/colors.css" }
 kitty = { src = 'kitty', dst ='~/.config/kitty/colors.conf'}
 waybar = { src = "waybar", dst = "~/.config/waybar/colors.css" }
-hypr = { src = "hyprland", dst = "~/.config/hypr/borders.conf" }
+hyprland = { src = "hyprland", dst = "~/.config/hypr/borders.conf" }
 mako = { src = "mako", dst = "~/.config/mako/config" }
-kvantum = { src = 'kvconfig', dst = "~/.config/Kvantum/wallust/wallust.kvconfig"}
 wlogout = { src = "wlogout", dst = "~/.config/wlogout/colors.css" }
 fuzzel = { template = "fuzzel", dst = "~/.config/fuzzel/colors.ini" }
 nvim = { src = "nvim", dst = "~/.config/nvim/lua/colors/wallust.lua"}
