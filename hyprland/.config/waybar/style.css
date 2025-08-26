@@ -20,7 +20,7 @@ tooltip {
   padding-bottom: 10px;
 }
 
-#clock.2
+#clock
 #custom-separator
 #clock
 #tray
@@ -46,7 +46,6 @@ tooltip {
   color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
 }
 
 #custom-separator {
@@ -58,6 +57,7 @@ tooltip {
 #clock {
   color: @foreground;
   padding-top: 10px;
+  padding-left: 10px;
   padding-bottom: 10px;
 }
 

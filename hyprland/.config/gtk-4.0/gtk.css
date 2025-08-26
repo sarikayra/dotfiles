@@ -2,62 +2,62 @@
 
 /* Window styling */
 window {
-    background-color: #22212B;
-    color: #FFF3E0;
+    background-color: #0C1314;
+    color: #E6F5F4;
 }
 
 /* Button styling */
 button {
-    background-color: #22212B;
-    color: #FFF3E0;
-    border: 2px solid #484752;
+    background-color: #0C1314;
+    color: #E6F5F4;
+    border: 2px solid #222829;
     border-radius: 6px;
     padding: 8px 16px;
     transition: all 0.2s ease;
 }
 
 button:hover {
-    border: 2px solid #BB7685;
-    color: #FFF3E0;
+    border: 2px solid #79C6B0;
+    color: #E6F5F4;
 }
 
 button:active {
-    background-color: #772D3C;
+    background-color: #5E8A81;
 }
 
 button.destructive-action {
-    background-color: #22212B;
-    color: #FFF3E0;
+    background-color: #0C1314;
+    color: #E6F5F4;
 }
 
 /* Entry/Input styling */
 entry {
-    background-color: #22212B;
-    color: #FFF3E0;
-    border: 2px solid #484752;
+    background-color: #0C1314;
+    color: #E6F5F4;
+    border: 2px solid #222829;
     border-radius: 6px;
     padding: 8px;
     transition: border-color 0.2s ease;
 }
 
 entry:focus {
-    border-color: #22212B;
-    outline: 2px solid alpha(#22212B, 0.3);
+    border-color: #0C1314;
+    outline: 2px solid alpha(#0C1314, 0.3);
     outline-offset: -2px;
 }
 
 /* Headerbar styling */
 headerbar {
-    background-color: #22212B;
-    color: #FFF3E0;
+    background-color: #0C1314;
+    color: #E6F5F4;
     padding: 6px;
 }
 
 /* Popover styling */
 :opover {
-    background-color: #484752;
-    color: #FFF3E0;
-    border: 2px solid #484752;
+    background-color: #222829;
+    color: #E6F5F4;
+    border: 2px solid #222829;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -73,8 +73,8 @@ modelbutton {
 }
 
 modelbutton:hover {
-    background-color: #22212B;
-    color: #FFF3E0;
+    background-color: #0C1314;
+    color: #E6F5F4;
 }
 
 /* Scrollbar styling */
@@ -83,7 +83,7 @@ scrollbar {
 }
 
 scrollbar slider {
-    background-color: #22212B;
+    background-color: #0C1314;
     border-radius: 10px;
     margin: 2px;
     min-width: 10px;
@@ -91,13 +91,13 @@ scrollbar slider {
 }
 
 scrollbar slider:hover {
-    background-color: #22212B;
+    background-color: #0C1314;
 }
 
 /* Listview/List styling */
 listview {
-    background-color: #22212B;
-    color: #FFF3E0;
+    background-color: #0C1314;
+    color: #E6F5F4;
 }
 
 listview row {
@@ -105,21 +105,21 @@ listview row {
 }
 
 listview row:selected {
-    background-color: #22212B;
-    color: #FFF3E0;
+    background-color: #0C1314;
+    color: #E6F5F4;
 }
 
 /* Switch styling */
 switch {
-    background-color: #22212B;
+    background-color: #0C1314;
     border-radius: 12px;
 }
 
 switch:checked {
-    background-color: #22212B;
+    background-color: #0C1314;
 }
 
 switch slider {
-    background-color: #FFF3E0;
+    background-color: #E6F5F4;
     border-radius: 50%;
 }

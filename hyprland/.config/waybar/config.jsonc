@@ -8,7 +8,7 @@
   "exclusive": true,
   "reload_style_on_change": true,
   // For Icons Alignments use "<span font_family='Material Icons' rise='-4000' size='large'>" before putting icons in format section.
-  "modules-left": ["clock#2", "clock"],
+  "modules-left": ["clock", "clock#2"],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": ["network", "backlight", "pulseaudio", "battery"],
 
@@ -26,7 +26,7 @@
   },
 
   "clock": {
-    "format": "󰥔 {:%I:%M}",
+    "format": " {:%H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
   },
 
@@ -36,7 +36,7 @@
   },
 
   "clock#2": {
-    "format": " {:%e %b}",
+    "format": " {:%e %b}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
   },
 
