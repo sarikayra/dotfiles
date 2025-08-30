@@ -14,7 +14,7 @@
 
 ## 🎯 Overview
 
-Welcome to my personal dotfiles collection! This repository contains my carefully crafted configuration files for creating a beautiful, efficient, and highly customized Linux desktop experience. Featuring both **Hyprland** (dynamic tiling compositor) and **KDE Plasma** setups, these configurations represent countless hours of fine-tuning for the perfect workflow.
+Welcome to my personal dotfiles collection! This repository contains my carefully crafted configuration files for creating a beautiful, efficient, and highly customized Linux desktop experience.
 
 ## ✨ What's Inside
 
@@ -39,7 +39,6 @@ A polished desktop environment with extensive customization:
 | Component | Purpose | Description |
 |-----------|---------|-------------|
 | **Hyprland** | Window Manager | Dynamic tiling Wayland compositor with modern features |
-| **KDE Plasma** | Desktop Environment | Full-featured DE with extensive customization options |
 | **Wayland** | Display Protocol | Modern display server protocol for better performance |
 | **Waybar** | Status Bar | Highly customizable status bar for Wayland compositors |
 | **Rofi** | Application Launcher | Fast, customizable application launcher and switcher |
@@ -93,10 +92,6 @@ These configurations are designed to be:
 - **Extensible**: Easy to modify colors, layouts, and behaviors
 - **Personal**: Reflect my workflow preferences but adaptable to yours
 
-## 📸 Screenshots
-
-*Add your beautiful desktop screenshots here to showcase the visual appeal!*
-
 ## 🤝 Contributing
 
 Found a bug or have a suggestion? Feel free to:
@@ -108,7 +103,6 @@ Found a bug or have a suggestion? Feel free to:
 
 Special thanks to the amazing Linux ricing community and the developers of:
 - [Hyprland](https://hyprland.org/) - The amazing Wayland compositor
-- [KDE Plasma](https://kde.org/plasma-desktop/) - The flexible desktop environment
 - The broader **r/unixporn** community for endless inspiration
 
 ## 📝 License
