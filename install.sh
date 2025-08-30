@@ -4,7 +4,7 @@
 cd ~
 
 # Create directories
-mkdir -p Clones Documents Downloads Pictures Videos Projects
+mkdir -p Clones Documents Downloads Pictures Videos Projects Wallpapers Screenshots
 
 # Change to Clones directory and install paru
 echo "Installing paru from AUR..."
@@ -99,7 +99,7 @@ paru -S --noconfirm \
 cd
 # Copy config files
 echo "Copying configuration files..."
-cp -r ~/hyprland-dotfiles/.config/* ~/.config/
+cp -r ~/dotfiles/.config/* ~/.config/
 
 # Change shell to fish
 echo "Changing default shell to fish. You will be prompted for your password."
