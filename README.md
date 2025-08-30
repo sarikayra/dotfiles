@@ -1,6 +1,6 @@
 # 🌟 sarikayra's Dotfiles
 
-> *My deeply customized Hyprland and Plasma setups*
+> *My deeply customized Hyprland setup*
 
 <div align="center">
 
