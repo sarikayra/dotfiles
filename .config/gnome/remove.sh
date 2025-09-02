@@ -1,0 +1,1 @@
+sudo pacman -Rns baobab malcontent evince sushi flatpak gnome-software epiphany gnome-backgrounds gnome-characters gnome-contacts gnome-connections gnome-disk-utility gnome-font-viewer  gnome-logs gnome-maps gnome-music gnome-tour gnome-weather htop vim simple-scan gnome-user-docs totem yelp
