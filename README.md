@@ -24,10 +24,6 @@ Run the provided install script to set up all components and configurations auto
 ./install.sh
 ```
 
-## Screenshots
-
-Minimalist layout, dynamic colors, keyboard workflow.
-
 ## License
 
 MIT
