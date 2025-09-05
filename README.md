@@ -23,8 +23,3 @@ Run the provided install script to set up all components and configurations auto
 ```sh
 ./install.sh
 ```
-
-## License
-
-MIT
-
